@@ -155,9 +155,8 @@ curl localhost:9001/patient -H "content-type: application/json" -d'{"id":"2","na
 ```
 
 ### Stream Output
-Lets stream data for `IND`
+Once data available `IND`
 ```
-Maheshs-MBP:~ mahesh$ curl localhost:9001/country/IND/stream
 data:{"id":1,"name":"Vicky","country":"IND"}
 
 data:{"id":3,"name":"Ramesh","country":"IND"}
@@ -166,9 +165,9 @@ data:{"id":4,"name":"RVicktor","country":"IND"}
 
 ```  
 
-Lets stream data for `SG`
+Once data available `SG`
 ```
-Maheshs-MBP:~ mahesh$ curl localhost:9001/country/SG/stream
+
 data:{"id":1,"name":"Thoma","country":"SG"}
 
 data:{"id":2,"name":"Maria","country":"SG"}
